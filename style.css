@@ -17,15 +17,12 @@ header {
     flex: 0 0 50px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
-    flex: 0 0 10px;
 }
 
-.footer p {
-    text-align: center;
-}
+.footer p {}
 
 
 header,
@@ -64,17 +61,15 @@ ul {
     margin: 0;
 }
 
-/* 
+
 .Hero-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #1f2937;
     flex-flow: wrap;
     flex: 0 0 350px;
 }
-/* 
 
-/* 
 .hero-left {
     display: flex;
     flex-flow: column wrap;
@@ -91,7 +86,7 @@ ul {
     height: 250px;
     flex: 0 0 400px;
 }
-*/
+
 button {
     width: 100px;
     background-color: #3882F6;
@@ -112,7 +107,8 @@ button {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex: 0 0 300px;
 }
 
 .info-pictures {
