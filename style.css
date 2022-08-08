@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
 body {
     margin: 0;
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-between;
 }
 
 header {
@@ -9,8 +14,19 @@ header {
     align-items: baseline;
     justify-content: space-around;
     padding: 0;
-    flex: 0 0 100px;
+    flex: 0 0 50px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 10px;
+}
+
+.footer p {
+    text-align: center;
+}
+
 
 header,
 footer {
@@ -124,9 +140,34 @@ button {
 .pic-4 {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
     flex: 0 0 100px;
 }
+
+.quote-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 250px;
+    background-color: #e5e7eb;
+}
+
+.quote-section p {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    width: 800px;
+    margin-bottom: 0;
+}
+
+strong {
+    padding-left: 100px;
+}
+
+
 
 .subtext {
     font-size: 12px;
