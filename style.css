@@ -7,7 +7,8 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    height: 100%;
+    height: 100vh;
+    /* background-color: #1f2937; */
 }
 
 
@@ -17,12 +18,13 @@ header {
     align-items: baseline;
     justify-content: space-around;
     padding: 0;
-    flex: 0 0 50px;
+    
 }
 
 footer {
     display: flex;
     justify-content: center;
+
 }
 
 header,
@@ -118,7 +120,7 @@ button {
 .info-pictures {
     display: flex;
     justify-content: center;
-    flex-flow: 0 0 1500px;
+   /* flex-flow: 0 0 1500px; */
 
 }
 
@@ -148,7 +150,7 @@ button {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    flex: 0 0 250px;
+  /*  flex: 0 0 250px; */
     background-color: #e5e7eb;
 }
 
