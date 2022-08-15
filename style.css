@@ -8,7 +8,6 @@ body {
     flex-flow: column wrap;
     justify-content: space-between;
     height: 100vh;
-    /* background-color: #1f2937; */
 }
 
 
@@ -18,7 +17,6 @@ header {
     align-items: baseline;
     justify-content: space-around;
     padding: 0;
-    
 }
 
 footer {
@@ -74,22 +72,30 @@ ul {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    align-items: center;
+    gap: 20px;
     /* flex: 0 0 350px; */
 }
 
 .hero-left {
-    /*  margin-right: auto; */
-    /* margin-left: 100px; */
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 30%;
+    margin-left: 70px;
+     
 }
 
 .hero-right {
+    align-self: center;
+    min-width: 0;
     /* align-items: center; */
-    /* flex: 0 0 580px; */
+     flex: 0 1 500px; 
 }
 
 .hero-right img {
     background-color: gray;
-    height: 200px;
+    height: 150px;
+    width: 72%;
 }
 
 
