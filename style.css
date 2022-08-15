@@ -108,12 +108,6 @@ button {
     padding: 8px;
 }
 
-.content {
-    display: flex;
-    flex-flow: column;
-    background-color: blue;
-
-}
 
 .information {
     display: flex;
@@ -179,4 +173,41 @@ strong {
 
 .subtext {
     font-size: 12px;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+
+margin-left: auto;
+margin-right: auto;
+gap: 100px;
+padding: 15px;
+padding-left: 5%;
+padding-right: 5%;
+
+}
+
+.call-to-action-left {
+    display: flex;
+    flex-flow: column;
+}
+
+.call-to-action-section h2 {
+    margin-bottom: 0px;
+}
+
+.call-to-action-section p {
+    margin-top: 0px;
+}
+
+.call-to-action-section button {
+    align-self: center;
+    border-color: #F9FAF8;
+    border-style: double;
+    padding: 5px;
 }
