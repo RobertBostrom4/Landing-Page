@@ -125,7 +125,7 @@ button {
     display: flex;
     justify-content: center;
     /* flex-flow: 0 0 1500px; */
-
+gap: 30px;
 }
 
 .info-pic {
