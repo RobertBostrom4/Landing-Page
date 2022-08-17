@@ -18,9 +18,10 @@ body {
 header {
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0;
     padding-bottom: 3vh;
+    gap: 20px;
 }
 
 footer {
@@ -35,10 +36,11 @@ footer {
 }
 
 .header-logo {
+    
+    width: 30%;
     font-size: 24px;
     color: #f9faf8;
-    /* margin-right: auto; */
-    /* margin-left: 100px; */
+    margin-left: 70px;
 }
 
 
@@ -58,6 +60,8 @@ ul {
     padding: 0;
     list-style: none;
     gap: 10px;
+    flex: 0 0 420px;
+    justify-content: flex-end;
 }
 
 .Hero-section {
@@ -66,7 +70,6 @@ ul {
     background-color: #1f2937;
     align-items: center;
     gap: 20px;
-    /*  flex: 0 0 36vh; */
     padding-bottom: 50px;
 }
 
@@ -79,6 +82,7 @@ ul {
 
 .hero-secondary-text {
     margin-top: 0;
+    margin-bottom: 7px;
 }
 
 .hero-left {
@@ -92,14 +96,13 @@ ul {
 .hero-right {
     align-self: center;
     min-width: 0;
-    /* align-items: center; */
-    flex: 0 1 500px;
+    width: 420px;
 }
 
 .hero-right img {
     background-color: gray;
     height: 150px;
-    width: 72%;
+    width: 100%;
 }
 
 
@@ -124,7 +127,6 @@ button {
 .info-pictures {
     display: flex;
     justify-content: center;
-    /* flex-flow: 0 0 1500px; */
     gap: 30px;
 }
 
