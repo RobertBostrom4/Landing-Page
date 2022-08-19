@@ -36,7 +36,7 @@ footer {
 }
 
 .header-logo {
-    
+
     width: 30%;
     font-size: 24px;
     color: #f9faf8;
@@ -94,14 +94,14 @@ ul {
 }
 
 .hero-right {
-    align-self: center;
+    display: flex;
     min-width: 0;
-    width: 420px;
+    flex: 0 1 420px;
 }
 
 .hero-right img {
     background-color: gray;
-    height: 150px;
+    max-height: 250px;
     width: 100%;
 }
 
